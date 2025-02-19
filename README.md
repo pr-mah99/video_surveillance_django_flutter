@@ -1,7 +1,3 @@
-# video_surveillance_django_flutter
-مشروع video_مشروع video_surveillance_django_flutter هو نظام مراقبة فيديو متكامل يعتمد على تقنيات الويب والهواتف المحمولة، حيث يجمع بين قوة إطار العمل Django للتعامل مع الخلفية (Backend) وإطار العمل Flutter لتطوير واجهة المستخدم الأمامية (Frontend). الهدف من المشروع هو توفير حل شامل لإدارة أنظمة المراقبة عبر الإنترنت.
-
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
@@ -74,6 +70,14 @@
       bottom: 0;
       width: 100%;
     }
+
+    pre {
+      background-color: #f9f9f9;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+      overflow-x: auto;
+    }
   </style>
 </head>
 <body>
@@ -101,6 +105,11 @@
         <li>Cross-Platform Support: Works on Android, iOS, Windows, macOS, and web browsers.</li>
         <li>RESTful API: Built using Django to facilitate communication between the system and other applications.</li>
       </ul>
+
+      <h2>Project Details</h2>
+      <p>
+        This project is supervised by <strong>Assist. Prof. Dr. Baraa Ismael Farhan</strong> at the University of Wasit, College of Education for Pure Sciences, Department of Computer Science. The project focuses on developing a video surveillance application that leverages advanced compression techniques (JPEG) and encryption (AES) to ensure secure and efficient transmission of video data over wireless multimedia sensor networks.
+      </p>
 
       <h2>Installation</h2>
       <pre>
@@ -144,6 +153,11 @@ python manage.py runserver
         <li>دعم متعدد المنصات: يعمل على Android، iOS، Windows، macOS، ومتصفحات الويب.</li>
         <li>واجهة برمجية (API): مبنية باستخدام Django لتسهيل التواصل بين النظام والتطبيقات الأخرى.</li>
       </ul>
+
+      <h2>تفاصيل المشروع</h2>
+      <p>
+        يشرف على هذا المشروع <strong>الأستاذ المساعد الدكتور براء إسماعيل فرحان</strong> في جامعة واسط، كلية التربية للعلوم الصرفة، قسم علوم الحاسوب. يركز المشروع على تطوير تطبيق لمراقبة الفيديو يستفيد من تقنيات الضغط المتقدمة (JPEG) والتشفير (AES) لضمان نقل آمن وفعال لبيانات الفيديو عبر شبكات الاستشعار اللاسلكية المتعددة الوسائط.
+      </p>
 
       <h2>التثبيت</h2>
       <pre>
