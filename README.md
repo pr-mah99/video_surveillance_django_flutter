@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>مشروع مراقبة الفيديو</title>
-  <!-- Title in English: Video Surveillance Project -->
+# video_surveillance_django_flutter
+مشروع video_مشروع video_surveillance_django_flutter هو نظام مراقبة فيديو متكامل يعتمد على تقنيات الويب والهواتف المحمولة، حيث يجمع بين قوة إطار العمل Django للتعامل مع الخلفية (Backend) وإطار العمل Flutter لتطوير واجهة المستخدم الأمامية (Frontend). الهدف من المشروع هو توفير حل شامل لإدارة أنظمة المراقبة عبر الإنترنت.
+
+
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -53,8 +50,6 @@
       overflow-x: auto;
     }
   </style>
-</head>
-<body>
 
   <header>
     <h1>مشروع مراقبة الفيديو في شبكات الاستشعار اللاسلكية المتعددة الوسائط</h1>
@@ -124,11 +119,3 @@ python manage.py migrate
 python manage.py runserver
     </pre>
   </div>
-
-  <footer>
-    &copy; 2024 مشروع مراقبة الفيديو | جميع الحقوق محفوظة
-    <!-- Footer in English: &copy; 2024 Video Surveillance Project | All Rights Reserved -->
-  </footer>
-
-</body>
-</html>
