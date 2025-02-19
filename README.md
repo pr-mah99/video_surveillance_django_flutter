@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Video Surveillance Project</title>
+  <title>مشروع مراقبة الفيديو</title>
+  <!-- Title in English: Video Surveillance Project -->
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -12,6 +13,7 @@
       background-color: #f4f4f9;
       color: #333;
       line-height: 1.6;
+      direction: rtl; /* Right-to-left for Arabic */
     }
 
     header {
@@ -31,34 +33,6 @@
 
     h1, h2, h3 {
       color: #007BFF;
-    }
-
-    .language-switch {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-
-    .language-switch button {
-      padding: 10px 20px;
-      margin: 5px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      background-color: #007BFF;
-      color: white;
-      font-size: 16px;
-    }
-
-    .language-switch button:hover {
-      background-color: #0056b3;
-    }
-
-    .content-ar, .content-en {
-      display: none;
-    }
-
-    .active {
-      display: block;
     }
 
     footer {
@@ -83,84 +57,46 @@
 <body>
 
   <header>
-    <h1>Video Surveillance Application in Wireless Multimedia Sensor Networks</h1>
-    <p>طئاسولا ةددعتملا ةيكلسلالا راعشتسلاا تاكبش يف ويديفلاب</p>
+    <h1>مشروع مراقبة الفيديو في شبكات الاستشعار اللاسلكية المتعددة الوسائط</h1>
+    <!-- Header in English: Video Surveillance Application in Wireless Multimedia Sensor Networks -->
   </header>
 
   <div class="container">
-    <div class="language-switch">
-      <button onclick="switchLanguage('en')">English</button>
-      <button onclick="switchLanguage('ar')">Arabic</button>
-    </div>
+    <h2>المقدمة</h2>
+    <!-- Introduction in English -->
+    <p>شهدت تقنية مراقبة الفيديو تطوراً سريعاً أدى إلى انتشار شبكات الاستشعار اللاسلكية المتعددة الوسائط (WMSNs). هذه الشبكات حيوية للعديد من التطبيقات مثل الأمن والمراقبة والبنية التحتية للمدن الذكية. ومع ذلك، فإن زيادة حجم بيانات الفيديو تثير تحديات كبيرة تتعلق بتخزين البيانات ونقلها وأمانها. يقدم هذا المشروع نهجاً فعالاً باستخدام تقنيات ضغط البيانات وطرق تشفير قوية لتحسين كفاءة وأمان أنظمة مراقبة الفيديو.</p>
 
-    <!-- English Content -->
-    <div class="content-en active">
-      <h2>Introduction</h2>
-      <p>This project aims to develop an efficient compressed sensing-based security approach for video surveillance applications in wireless multimedia sensor networks.</p>
+    <h2>مشكلة البحث</h2>
+    <!-- Research Problem in English -->
+    <p>التحدي الرئيسي الذي يتناوله هذا المشروع هو نقل وتخزين كميات كبيرة من بيانات الفيديو في شبكات الاستشعار اللاسلكية التي غالباً ما تعاني من قيود في النطاق الترددي والطاقة. بالإضافة إلى ذلك، هناك حاجة متزايدة لتدابير أمان قوية لحماية المعلومات الحساسة من الوصول غير المصرح به والهجمات. يهدف هذا المشروع إلى معالجة هذه القضايا من خلال تطوير نظام يقوم بضغط إطارات الفيديو وتشفيرها قبل الإرسال، مما يقلل من حجم البيانات ويعزز الأمان أثناء النقل.</p>
 
-      <h2>Features</h2>
-      <ul>
-        <li>Video Compression: Reduces video data size by up to 85% while maintaining acceptable quality.</li>
-        <li>Data Encryption: Uses AES encryption to secure data during transmission and storage.</li>
-        <li>Cross-Platform Support: Works on Android, iOS, Windows, macOS, and web browsers.</li>
-        <li>RESTful API: Built using Django to facilitate communication between the system and other applications.</li>
-      </ul>
+    <h2>أهداف البحث</h2>
+    <!-- Research Objectives in English -->
+    <p>تكمن أهمية هذا البحث في إمكاناته لتعزيز كفاءة وأمان أنظمة مراقبة الفيديو. مع استمرار توسع المناطق الحضرية، تتزايد الحاجة إلى حلول مراقبة فعالة. يساهم هذا المشروع ليس فقط في المجال الأكاديمي لشبكات الاستشعار المتعددة الوسائط، بل يقدم أيضاً حلولاً عملية لتطبيقات العالم الحقيقي في مجالات الأمن والمراقبة، مما يجعله ذا قيمة لتحسين أداء المراقبة وزيادة مستوى الحماية.</p>
 
-      <h2>Project Details</h2>
-      <p>
-        This project is supervised by <strong>Assist. Prof. Dr. Baraa Ismael Farhan</strong> at the University of Wasit, College of Education for Pure Sciences, Department of Computer Science. The project focuses on developing a video surveillance application that leverages advanced compression techniques (JPEG) and encryption (AES) to ensure secure and efficient transmission of video data over wireless multimedia sensor networks.
-      </p>
+    <h2>منهجية البحث</h2>
+    <!-- Methodology in English -->
+    <p>تتضمن المنهجية المستخدمة في هذا البحث عدة خطوات رئيسية:</p>
+    <ol>
+      <li>جمع البيانات: التقاط إطارات الفيديو باستخدام كاميرا متكاملة مع شبكة الاستشعار اللاسلكية.</li>
+      <li>ضغط البيانات: تنفيذ ضغط JPEG لتقليل حجم إطارات الفيديو.</li>
+      <li>تشفير البيانات: استخدام خوارزمية AES لتشفير بيانات الإطارات المضغوطة.</li>
+      <li>نقل البيانات: إرسال البيانات المشفرة إلى الخادم لتخزينها ومعالجتها.</li>
+      <li>استرجاع البيانات: توفير واجهة برمجية (API) لاسترجاع بيانات إطارات الفيديو عند الحاجة.</li>
+    </ol>
 
-      <h2>Installation</h2>
-      <pre>
-# Set up environment
-python -m venv venv
-.\venv\Scripts\Activate  # For Windows
-source venv/bin/activate  # For Linux/MacOS
+    <h2>الأدوات والتكنولوجيا المستخدمة</h2>
+    <!-- Tools and Technologies in English -->
+    <ul>
+      <li>لغة البرمجة: بايثون.</li>
+      <li>الإطار: Django لتطوير واجهة برمجية (API).</li>
+      <li>المكتبات: OpenCV لمعالجة الفيديو، Crypto للتشفير، وRequests للتواصل عبر HTTP.</li>
+      <li>قاعدة البيانات: Django ORM لإدارة تخزين بيانات إطارات الفيديو.</li>
+    </ul>
 
-# Install dependencies
-pip install django
-pip install djangorestframework
-pip install opencv-python
-pip install pycryptodome
-pip install numpy scipy Pillow
-pip install requests
-pip install moviepy pyaudio
-
-# Create a new project
-django-admin startproject video_surveillance
-cd video_surveillance
-python manage.py startapp surveillance
-
-# Migrate models to database
-python manage.py makemigrations
-python manage.py migrate
-
-# Run the server
-python manage.py runserver
-      </pre>
-    </div>
-
-    <!-- Arabic Content -->
-    <div class="content-ar">
-      <h2>المقدمة</h2>
-      <p>يهدف هذا المشروع إلى تطوير نظام مراقبة فيديو فعال وآمن باستخدام تقنيات ضغط الفيديو والتشفير المتقدم في شبكات الاستشعار اللاسلكية المتعددة الوسائط.</p>
-
-      <h2>الميزات</h2>
-      <ul>
-        <li>ضغط الفيديو: يقلل حجم بيانات الفيديو بنسبة تصل إلى 85% مع الحفاظ على جودة مقبولة.</li>
-        <li>التشفير: يستخدم خوارزمية AES لتامين البيانات أثناء النقل والتخزين.</li>
-        <li>دعم متعدد المنصات: يعمل على Android، iOS، Windows، macOS، ومتصفحات الويب.</li>
-        <li>واجهة برمجية (API): مبنية باستخدام Django لتسهيل التواصل بين النظام والتطبيقات الأخرى.</li>
-      </ul>
-
-      <h2>تفاصيل المشروع</h2>
-      <p>
-        يشرف على هذا المشروع <strong>الأستاذ المساعد الدكتور براء إسماعيل فرحان</strong> في جامعة واسط، كلية التربية للعلوم الصرفة، قسم علوم الحاسوب. يركز المشروع على تطوير تطبيق لمراقبة الفيديو يستفيد من تقنيات الضغط المتقدمة (JPEG) والتشفير (AES) لضمان نقل آمن وفعال لبيانات الفيديو عبر شبكات الاستشعار اللاسلكية المتعددة الوسائط.
-      </p>
-
-      <h2>التثبيت</h2>
-      <pre>
+    <h2>التثبيت</h2>
+    <!-- Installation in English -->
+    <pre>
 # إعداد البيئة
 python -m venv venv
 .\venv\Scripts\Activate  # لنظام Windows
@@ -186,28 +122,13 @@ python manage.py migrate
 
 # تشغيل السيرفر
 python manage.py runserver
-      </pre>
-    </div>
+    </pre>
   </div>
 
   <footer>
-    &copy; 2024 Video Surveillance Project | All Rights Reserved
+    &copy; 2024 مشروع مراقبة الفيديو | جميع الحقوق محفوظة
+    <!-- Footer in English: &copy; 2024 Video Surveillance Project | All Rights Reserved -->
   </footer>
-
-  <script>
-    function switchLanguage(lang) {
-      const contentEn = document.querySelector('.content-en');
-      const contentAr = document.querySelector('.content-ar');
-
-      if (lang === 'en') {
-        contentEn.classList.add('active');
-        contentAr.classList.remove('active');
-      } else if (lang === 'ar') {
-        contentAr.classList.add('active');
-        contentEn.classList.remove('active');
-      }
-    }
-  </script>
 
 </body>
 </html>
