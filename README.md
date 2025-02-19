@@ -2,54 +2,7 @@
 مشروع video_مشروع video_surveillance_django_flutter هو نظام مراقبة فيديو متكامل يعتمد على تقنيات الويب والهواتف المحمولة، حيث يجمع بين قوة إطار العمل Django للتعامل مع الخلفية (Backend) وإطار العمل Flutter لتطوير واجهة المستخدم الأمامية (Frontend). الهدف من المشروع هو توفير حل شامل لإدارة أنظمة المراقبة عبر الإنترنت.
 
 
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f9;
-      color: #333;
-      line-height: 1.6;
-      direction: rtl; /* Right-to-left for Arabic */
-    }
 
-    header {
-      background-color: #007BFF;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-
-    .container {
-      max-width: 1200px;
-      margin: 20px auto;
-      padding: 20px;
-      background: white;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    h1, h2, h3 {
-      color: #007BFF;
-    }
-
-    footer {
-      text-align: center;
-      padding: 10px;
-      background-color: #007BFF;
-      color: white;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-    }
-
-    pre {
-      background-color: #f9f9f9;
-      padding: 10px;
-      border-radius: 5px;
-      border: 1px solid #ddd;
-      overflow-x: auto;
-    }
-  </style>
 
   <header>
     <h1>مشروع مراقبة الفيديو في شبكات الاستشعار اللاسلكية المتعددة الوسائط</h1>
