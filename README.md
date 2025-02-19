@@ -25,27 +25,23 @@
 ---
 
 ## صور التطبيق (سكرينات)
-### 1. واجهة تسجيل الدخول (من الهاتف المحمول)
-![Login Screen](https://github.com/pr-mah99/video_surveillance_django_flutter/blob/main/Screenshots/1.png)  
-*وصف*: واجهة تسجيل الدخول حيث يقوم المستخدم بإدخال بيانات الاعتماد (مثل اسم المستخدم وكلمة المرور) للوصول إلى النظام. هذه الصورة مأخوذة من شاشة هاتف محمول.
+## صور التطبيق
+
+### الصف الأول: تطبيق الهاتف المحمول
+تم تصميم تطبيق الهاتف المحمول باستخدام **Flutter** لعرض الفيديوهات المشفرة والمضغوطة في الزمن الحقيقي. يتميز التطبيق بواجهة مستخدم سهلة ومريحة تعمل على أنظمة Android وiOS.
+
+| تسجيل الدخول | قائمة الفيديوهات | مشغل الفيديو |
+| --- | --- | --- |
+| ![Login Screen](https://github.com/pr-mah99/video_surveillance_django_flutter/blob/main/Screenshots/1.png) | ![Video List](https://github.com/pr-mah99/video_surveillance_django_flutter/blob/main/Screenshots/2.png) | ![Video Player](https://github.com/pr-mah99/video_surveillance_django_flutter/blob/main/Screenshots/3.png) |
+
+*وصف*: هذه الصور تمثل واجهات التطبيق على الهاتف المحمول، حيث يقوم المستخدم بتسجيل الدخول، تصفح قائمة الفيديوهات، وتشغيل الفيديو بعد فك التشفير وإعادة بنائه.
 
 ---
 
-### 2. قائمة الفيديوهات (من الهاتف المحمول)
-![Video List](https://github.com/pr-mah99/video_surveillance_django_flutter/blob/main/Screenshots/2.png)  
-*وصف*: تعرض هذه الشاشة قائمة بالفيديوهات المتاحة التي تم جمعها من شبكة الاستشعار اللاسلكية. هذه الصورة مأخوذة من شاشة هاتف محمول.
-
----
-
-### 3. مشغل الفيديو (من الهاتف المحمول)
-![Video Player](https://github.com/pr-mah99/video_surveillance_django_flutter/blob/main/Screenshots/3.png)  
-*وصف*: واجهة تشغيل الفيديو حيث يتم عرض الفيديو بعد فك التشفير وإعادة بنائه. هذه الصورة مأخوذة من شاشة هاتف محمول.
-
----
-
-### 4. واجهة الويب (من الحاسوب)
+### الصف الثاني: تطبيق Django على الحاسوب
 ![Web Interface](https://github.com/pr-mah99/video_surveillance_django_flutter/blob/main/Screenshots/4.png)  
-*وصف*: هذه الصورة تُظهر واجهة الويب الخاصة بالتطبيق عند استخدامه على الحاسوب. تتميز بعرض واسع ومناسب للأجهزة الكبيرة.
+
+*وصف*: هذه الصورة تُظهر واجهة الويب الخاصة بالتطبيق عند استخدامه على الحاسوب. تم تطوير الواجهة باستخدام إطار العمل **Django**، وهي تتيح للمستخدمين إدارة الفيديوهات وتخزينها بأمان.  
 
 ---
 
