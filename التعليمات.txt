@@ -1,0 +1,66 @@
+Efficient compressed sensing-based security approach for video surveillance application in wireless multimedia sensor networks
+-------
+Django
+-------
+
+تشغيل السيرفر:
+python manage.py runserver
+
+تشغيل السيرفر مع ip:
+python manage.py runserver 192.168.1.64:8000
+
+تشغيل المشروع:
+python surveillance/send_frame.py
+
+الفريمات
+http://192.168.1.97:8000/frames/
+----------
+
+python.exe -m pip install --upgrade pip
+pip install django
+pip install djangorestframework
+
+-----------
+انشاء مشروع جديد
+django-admin startproject video_surveillance
+cd video_surveillance
+---
+أنشئ تطبيق داخل المشروع
+python manage.py startapp surveillance
+---
+رحيل النماذج إلى قاعدة البيانات
+python manage.py makemigrations
+python manage.py migrate
+
+تشغيل الخادم
+python manage.py runserver
+
+تشغيل المرسل
+python send_frame.py
+--------
+مكتبة تشفير البيانات Crypto
+pip install pycryptodome
+---
+pip install numpy
+
+pip install scipy
+
+pip install Pillow
+
+----
+تجهيز البيئة
+python -m venv venv
+.\venv\Scripts\Activate
+venv\Scripts\activate
+Set-ExecutionPolicy RemoteSigned -Scope Process
+.\venv\Scripts\Activate
+
+----
+مكتبة التعامل مع http
+pip install requests
+
+pip install opencv-python
+-----
+مكتبة تسجيل الصوت
+pip install moviepy pyaudio
+----------
