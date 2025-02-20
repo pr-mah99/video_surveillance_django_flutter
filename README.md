@@ -24,9 +24,9 @@
 
 ---
 
-    <a href="https://youtu.be/Af4S3QpnFEg" target="_blank">
-        <img src="https://github.com/pr-mah99/video_surveillance_django_flutter/blob/main/Screenshots/5.png" alt="[وصف الصورة](https://youtu.be/Af4S3QpnFEg)" style="width:300px; height:auto;">
-    </a>
+### رابط الفيديو التوضيحي
+[![فيديو توضيحي للمشروع](https://github.com/pr-mah99/video_surveillance_django_flutter/blob/main/Screenshots/5.jpg)](https://youtu.be/Af4S3QpnFEg)
+
 
 ## صور التطبيق (سكرينات)
 ## صور التطبيق
